@@ -259,6 +259,7 @@ margin-bottom: 16px;
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 24px 72px 24px 24px;
 }
 .modal {
     position: absolute;
@@ -332,6 +333,7 @@ margin-bottom: 16px;
   }
   .subscribe-form {
     display: flex;
+    gap: 24px;
   }
   .subscribe-label {
     gap: 24px;
@@ -728,6 +730,8 @@ font-weight: 500;
 line-height: 150%; /* 150% */
 letter-spacing: 0.32px;
 margin-top: 72px;
+text-align: center;
+margin-bottom: 16px;
 }
 .modal-div {
     display: flex;
