@@ -325,9 +325,10 @@ margin-bottom: 16px;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
-    line-height: 150; /* 150% */
+    line-height: 150%; /* 150% */
     letter-spacing: 0.32px;
     color: var(--white-color);
+    margin-bottom: 16px;
   }
   .subscribe-input {
     border-radius: 4px;
