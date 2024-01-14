@@ -724,7 +724,6 @@ label {
 .modal-paragraph {
 color: var(--navy-color);
 text-align: center;
-/* Body Medium */
 font-size: 16px;
 font-style: normal;
 font-weight: 500;
@@ -738,6 +737,62 @@ margin-bottom: 16px;
     display: flex;
     flex-direction: column;
     gap: 24px;
+}
+.label-name-div {
+    margin-bottom: 8px;
+}
+.label-name {
+color: var(--light-slate);
+font-family: Roboto, sans-serif;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 116%; /* 116.667% */
+letter-spacing: 0.48px;
+display: block;
+margin-bottom: 4px;
+}
+.div-input-icon {
+    position: relative;
+}
+.input-user-name {
+    width: 100%;
+    height: 40px;
+    border-radius: 4px;
+    border: 1px solid var(--iris-color);
+    background-color: transparent;
+    padding-left: 38px;
+    outline: transparent;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.input-user-name:focus {
+    border-color: var(--iris-color);
+}
+.svg-name {
+    position: absolute;
+    left: 16px;
+    top: 50%;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.svg-name:focus {
+    fill: #4D5AE5;
+}
+.comment-area {
+    width: 100%;
+    height: 120px;
+    line-height: 1.17;
+    letter-spacing: 24px;
+    color: rgba(46, 47, 66, 0.4);
+    border: 1px solid rgba(46, 47, 66, 0.4);
+    border-radius: 4px;
+    background-color: transparent;
+    padding: 8px 16px;
+    outline: transparent;
+    resize: none;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.comment-area:focus {
+    border-color: var(--iris-color);
 }
 .terms-paragraph {
     color: var(--light-slate);
@@ -763,20 +818,21 @@ letter-spacing: 0.48px;
 .send-button {
 color: var(--white-color);
 text-align: center;
-/* Button Text */
-font-family: Roboto;
+font-family: Roboto, sans-serif;
 font-size: 16px;
 font-style: normal;
 font-weight: 500;
-line-height: 24px; /* 150% */
+line-height: 150%; /* 150% */
 letter-spacing: 0.64px;
 background-color: var(--iris-color);
+border: none;
 border-radius: 4px;
 padding: 16px 32px;
-max-width: 169px;
+min-width: 169px;
 height: 56px;
-border-radius: 4px;
 box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-display: flex;
+display: block;
 align-items: center;
+cursor: pointer;
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
