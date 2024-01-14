@@ -382,11 +382,11 @@
                     </ul> 
                 </div>
                    <!--Subscribe Footer-->
-                    <div>
+                    <div class="subscribe-div">
                         <p class="subscribe-paragraph">Subscribe</p>
                         <form class="subscribe-form">
                             <label for="user_email" class="subscribe-label">
-                                <input type="email" name="E-mail" placeholder="E-mail" class="subscribe-input" id="user_email">
+                                <input type="email" name="E-mail" placeholder="E-mail" id="user_email" class="subscribe-input">
                             </label>
                             <button type="submit" class="subscribe-button">Subscribe
                                 <svg width="24"  height="24" class="subscribe-svg">
@@ -408,38 +408,45 @@
                              </use>
                         </svg>
                     </button>
-                    <p class="modal-paragraph">Leave your contacts and we will call you back</p>
                 </div>
-                    <form>                      
-                       
-                        <div>
+                    <p class="modal-paragraph">Leave your contacts and we will call you back</p>
+                    <form>                  
+                       <div>
                         <label for="user_name">Name
-                            <input type="text" name="Name" id="user_name"> 
                         </label>
+                    <div>
+                        <input type="text" name="Name" id="user_name"> 
                         <svg width="18"  height="18" class="">
                             <use href="./images/icons.svg#icon-person-black">
                              </use>
                         </svg>
+                    </div>
                         </div>
                         <div>
-                        <label for="user_phone">Phone
-                            <input type="text" name="Phone" id="user_phone">
-                        </label>
+                        <label for="user_phone">Phone</label>
+                        <div>
+                        <input type="text" name="Phone" id="user_phone">
                         <svg width="18"  height="24" class="">
                             <use href="./images/icons.svg#icon-phone-black">
                              </use>
                             </svg>
                         </div>
+                        </div>
                         <div>
-                        <label for="email">Email
-                            <input type="text" name="Email" id="email">
-                        </label>
+                        <label for="email">Email</label>
+                        <div>
+                        <input type="text" name="Email" id="email">
                         <svg width="18"  height="24" class="">
                             <use href="./images/icons.svg#icon-email-black">
                              </use>
                         </svg>
                         </div>
-                        <textarea name="Comment" cols="30" rows="10" placeholder="Text input">Comment</textarea>
+                        </div>
+                        <div>
+                            <label for="user-comment">Comment</label>
+                            <input type="text" id="user-comment" name="Comment">
+                            <textarea name="Comment" cols="30" rows="10" placeholder="Text input">Text input</textarea>
+                        </div>
                         <div>
                         <svg width="16"  height="16" class="checkbox">
                             <use href="./images/icons.svg#icon-checkbox">
