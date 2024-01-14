@@ -9,6 +9,7 @@
     --cornflower-color: #E7E9FC;
     --grey-color: #2E2F42B2;
     --dairy-color: #FCFCFC;
+    --light-slate : #8E8F99;
         }
 /*Global Styles*/
 body {
@@ -304,6 +305,37 @@ margin-bottom: 16px;
   }
   .circle-image:hover, .circle-image:focus {
     fill:  var(--white-color);
+  }
+  /* Subscribe footer classes */
+  .subscribe-button {
+    color: var(--white-color);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%; /* 150% */
+    letter-spacing: 0.64px;
+    text-align: center;
+    border-radius: 4px;
+    background-color: var(--iris-color);
+    padding: 8px 24px;
+  }
+  .subscribe-paragraph {
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150; /* 150% */
+    letter-spacing: 0.32px;
+    color: var(--white-color);
+  }
+  .subscribe-input {
+    border-radius: 4px;
+    border: 1px solid var(--WHITE, #FFF);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    max-width: 264px;
+    height: 40px;
+    background-color: var(--navy-color);
   }
 
 /*Buttons*/
@@ -628,6 +660,7 @@ color: var(--navy-color);
     border: 1px solid var(--cornflower-color);
     border-top: none;
 }
+/* Flash Paragraf Portfolio*/
 .flash-window {
     position: relative;
     overflow: hidden;
@@ -654,4 +687,65 @@ color: var(--navy-color);
 }
 .link-cards:focus .flash-window-paragraph {
     transform: translateY(0%);
+}
+label {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    max-width: 360px;
+}
+.modal-paragraph {
+color: var(--navy-color);
+text-align: center;
+/* Body Medium */
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 150%; /* 150% */
+letter-spacing: 0.32px;
+margin-top: 72px;
+}
+.modal-div {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.terms-paragraph {
+    color: var(--light-slate);
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 116%; /* 116.667% */
+    letter-spacing: 0.48px;
+}
+.privacy-policy{
+color: var(--iris-color);
+font-family: Roboto;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 16px;
+letter-spacing: 0.48px;
+}
+.checkbox {
+    fill: var(--cornflower-color);
+    stroke-width: 1px;
+}
+.send-button {
+color: var(--white-color);
+text-align: center;
+/* Button Text */
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px; /* 150% */
+letter-spacing: 0.64px;
+background-color: var(--iris-color);
+border-radius: 4px;
+padding: 16px 32px;
+max-width: 169px;
+height: 56px;
+border-radius: 4px;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
