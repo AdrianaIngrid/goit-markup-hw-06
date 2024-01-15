@@ -754,6 +754,7 @@ margin-bottom: 4px;
 }
 .div-input-icon {
     position: relative;
+    margin-bottom: 16px;
 }
 .input-user-name {
     width: 100%;
@@ -799,13 +800,17 @@ margin-bottom: 4px;
 .checkbox-div{
     margin-bottom: 24px;
 }
-.terms-paragraph {
+.checkbox-input {
+    
+}
+.terms-label {
     color: var(--light-slate);
     font-size: 12px;
     font-style: normal;
     font-weight: 400;
-    line-height: 116%; /* 116.667% */
+    line-height: 117%; /* 116.667% */
     letter-spacing: 0.48px;
+    display: block;
 }
 .privacy-policy{
 color: var(--iris-color);
@@ -813,8 +818,17 @@ font-family: Roboto;
 font-size: 12px;
 font-style: normal;
 font-weight: 400;
-line-height: 16px;
+height: 16px;
 letter-spacing: 0.48px;
+width: 16px;
+border: 1px solid rgba(46, 47, 66, 0.4);
+border-radius: 2px;
+transition: background-colour 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+display: inline-flex;
+align-items: center;
+justify-content: center;
+fill: transparent;
+
 }
 .checkbox {
     fill: var(--cornflower-color);
