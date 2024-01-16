@@ -797,7 +797,7 @@ margin-bottom: 4px;
 .comment-area:focus {
     border-color: var(--iris-color);
 }
-.checkbox-div{
+.checkbox-div {
     margin-bottom: 16px;
 }
  .checkbox-input:checked + .terms-label .privacy-policy{
