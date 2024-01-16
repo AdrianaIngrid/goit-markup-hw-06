@@ -800,8 +800,10 @@ margin-bottom: 4px;
 .checkbox-div{
     margin-bottom: 16px;
 }
-.checkbox-input {
-    
+ .checkbox-input:checked + .terms-label .privacy-policy{
+    background-color: #404bbf;
+    border: none;
+    fill: #F4F4FD;
 }
 .terms-label {
     color: var(--light-slate);
