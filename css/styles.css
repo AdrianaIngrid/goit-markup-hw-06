@@ -741,6 +741,9 @@ margin-bottom: 16px;
 .label-name-div {
     margin-bottom: 8px;
   }
+.label-comment {
+    margin-bottom: 16px;
+}
 .label-name {
 color: var(--light-slate);
 font-family: Roboto, sans-serif;
