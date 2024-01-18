@@ -742,7 +742,7 @@ margin-bottom: 16px;
     margin-bottom: 8px;
   }
 .label-comment {
-    margin-bottom: 24px;
+    margin-bottom: 16px;
 }
 .label-name {
 color: var(--light-slate);
@@ -801,7 +801,7 @@ margin-bottom: 4px;
     border-color: var(--iris-color);
 }
 .checkbox-div {
-    margin-bottom: 16px;
+    margin-bottom: 24px;
 }
  .checkbox-input:checked + .terms-label .privacy-policy{
     background-color: #404bbf;
